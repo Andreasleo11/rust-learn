@@ -1,0 +1,12 @@
+[package]
+name = "p05_microservice_demo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15"
+actix-web = "4.0"  # API framework
+serde = { version = "1.0", features = ["derive"] }  # Serialisasi
+serde_json = "1.0"  # JSON parsing
+mysql = "24.0.0"  # Koneksi ke MySQL
+actix-rt = "2.5.0"  # Untuk async tasks

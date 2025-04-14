@@ -1,0 +1,11 @@
+[package]
+name = "p01_user_api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15"
+mysql = "24.0.0"  # Untuk koneksi ke MySQL
+actix-web = "4.0"  # Untuk membuat API dengan Actix
+serde = { version = "1.0", features = ["derive"] }  # Untuk serialisasi
+serde_json = "1.0"  # Untuk JSON handling
